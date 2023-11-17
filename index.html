@@ -1,28 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grammerly mail</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grammerly HTML Email</title>
     <style>
-        *,td,tr{margin: 0; padding: 0; box-sizing: border-box; border-spacing: 0;}
-        table{width: 100%; border: 0;}
-        img{font-size: 0;}
-        p{font-size: 14px;}
-        #wrapper{width: 100%;background: #4e505c; padding-top: 16px;}
-        .main{width: 100%; max-width: 600px; padding-bottom: 40px; color: #fff; font-family: Arial, Helvetica, sans-serif ;}
-        .content{padding: 24px 0 24px 16px;}
+        *{box-sizing: border-box;}
+        body{margin: 0;}
+        table{ border-spacing: 0;}
+        img{border: 0;}
+        td{padding: 0;}
+        p{font-size: 16px;}
+        #wrapper{width: 100%; table-layout:fixed; background: #f6f8fc; padding-bottom: 60px; }
+        .main{width: 100%; max-width: 600px; padding-bottom: 40px; font-family: Arial, Helvetica, sans-serif; }
+        .header{padding: 14px 0; background: #f6f8fc;}
+        .content{padding: 24px 40px;}
+        .capabilities{padding: 24px 40px  ;}
+        .two-columns .column{ width: 100%; display: inline-block; }
+        .column p{text-align: left; padding-left: 12px; width: 100%;}
+        
     </style>
 </head>
 <body>
     <center id="wrapper">
-        <table class="main">
-            <tr>
-                <td>
-                   <table>
+        <table class="main" style="background-color: white; color: black;">
+            <tr> 
+                <td >
+                   <table width="100%">
                     <tr>
                         <td class="header">
-                            <a href="#"><img src="img/grammerly-logo.png" alt="Grammerly-logo" title="Grammerly" width="143px"></a>
+                            <a href="#"><img src="img/grammerly-log+.png" alt="Grammerly-logo" title="Grammerly" width="143px" ></a>
                         </td>
                     </tr>
                    </table> 
@@ -34,7 +42,8 @@
                     <table>
                         <tr>
                             <td>
-                                <img src="img/gramm-gif.gif" alt="showcase" title="grammerly_banner" width="600px">
+                                <img src="img/gramm-gif.gif" alt="showcase" title="grammerly_banner" style="max-width: 600px; width: 100%; ">
+                                <!-- <a href="https://ibb.co/8XyhQMQ"><img src="https://i.ibb.co/8XyhQMQ/gramm-gif.gif" alt="gramm-gif" border="0" style="text-align: center; background-color: #11a683; width: 100%; margin-left: 150px;"></a> -->
                             </td>
                         </tr>
                     </table>
@@ -42,11 +51,11 @@
             </tr>
 
             <tr>
-                <td class="content" style="background-color: black;" >
-                    <table>
+                <td class="content" style="padding: 14px 40px;" >
+                    <table width="100%">
                         <tr>
                             <td>
-                                <h2 style="font-size: 32px; line-height: 48px; text-align: center; padding-bottom: 18px;">Get Your Groove Back</h2>
+                                <h2 style="font-size: 32px; line-height: 48px; text-align: center; ">Get Your Groove Back</h2>
                                 <p>Ready to take your everyday writing further? Don't forget all you can do with Grammarly.</p><br>
                                 <p>Polish your work quicker with real-time suggestions that get you better results and improve your communication</p><br>
                                 <p>Express your ideas clearly, effectively, and with instant confidence with all Grammarly has to offer.</p>
@@ -56,14 +65,63 @@
                     
                 </td>
             </tr>
-
+<!-- two columns -->
             <tr>
-                <td style="background-color: blue;">
-                    <table>
-                        <tr>
-                            <td>hello</td>
-                        </tr>
-                    </table>
+                <td class="capabilities">
+                   <table width="100%">
+
+                    <tr>
+                        <td class="two-columns">
+                            <h3 style="font-size: 16px; line-height: 24px; font-weight: bolder;">With Grammarly's suggestions, you can:</h3>
+                            <table class="column">
+                                <tr>
+                                    <td class="feature-img"><a href="https://imgbb.com/"><img src="https://i.ibb.co/HnFPWKY/Unnamed.png" alt="Unnamed" border="0"></a></td>
+                                    <td><p>	
+                                        Instantly proofread your writing for grammar, spelling, and punctuation errors.</p></td>
+                                </tr>
+                            </table>
+                            <table class="column"  style="padding-top: 24px;">
+                                <tr>
+                                    <td class="feature-img"><a href="https://imgbb.com/"><img src="https://i.ibb.co/9YQFLt5/Polish-writing.png" alt="Polish-writing" border="0"></a></td>
+                                    <td><p>Polish your writing on your phone and tablet.</p></td>
+                                </tr>
+                            </table>
+                            <table class="column"  style="padding-top: 24px;">
+                                <tr>
+                                    <td class="feature-img"><a href="https://imgbb.com/"><img src="https://i.ibb.co/QHMY2CB/Check.png" alt="Check" border="0"></a></td>
+                                    <td><p>Check that your writing strikes the right tone.</p></td>
+                                </tr>
+                            </table>
+                            <table class="column"  style="padding-top: 24px;">
+                                <tr>
+                                    <td class="feature-img"><a href="https://imgbb.com/"><img src="https://i.ibb.co/3WHvvs1/cutout.png" style="width: 64px;" alt="cutout" border="0"></a></td>
+                                    <td><p>Cut out unnecessary words with ease.
+                                    </p></td>
+                                </tr>
+                              
+                            </table>
+                            
+                            <tr>
+                                <td>
+                                    <table width="100%">
+                                        <tr>
+                                            <td style=" text-align: center; width: 100%;">
+                                            <p style="padding: 40px 32px;"><a href="#" width="50px" style="background-color: #11a683; padding: 8px 32px; border: 1px solid #11a683; border-radius: 5px; text-decoration: none; color: white; font-weight: bold;">I'm Ready To Write</a></p>
+                                            <!-- <a href="https://ibb.co/8rRtWvP"><img src="https://th.bing.com/th/id/OIP.-ClU6XOY-moCVXDJckmEbwHaEK?pid=ImgDet&w=145&h=109.20886075949366&c=7" alt="gmail" border="0" width="32px"></a> -->
+                                            <a href="https://ibb.co/8rRtWvP"><img src="img/docx.png" alt="gmail" border="0" width="132px"></a>
+                                            <!-- <a href="https://ibb.co/8rRtWvP"><img src="https://th.bing.com/th/id/OIP.87pGpzAsmKvDut6UAwpn_QHaEK?pid=ImgDet&w=145&h=81.37130801687763&c=7" alt="gmail" border="0" width="32px"></a> -->
+                                            <p style="padding-top: 12px; font-weight: bold;">Continue writing to experience the magic.</p>
+                                            <p>Try Grammarly in Gmail, Google Docs, Word, and more!</p>
+                                        </td>
+                                    </tr>
+                                   </table> 
+                                </td>
+                            </tr>
+                          
+                        </td>
+                    </tr>
+                       
+                   </table>
                 </td>
             </tr>
         </table>
